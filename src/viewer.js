@@ -3234,6 +3234,7 @@ class VolumeImageViewer {
           const measurements = retrievedBulkdata[2]
 
           console.log('process annotations')
+          console.log("Centroid")
           for (let i = 0; i < numberOfAnnotations; i++) {
             const point = _getCentroid(
               graphicType,
